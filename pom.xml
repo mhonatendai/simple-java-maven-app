@@ -38,6 +38,7 @@
         <artifactId>maven-jar-plugin</artifactId>
         <version>3.4.2</version>
         <configuration>
+          <finalName>simple-jenkins</finalName>
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
